@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+    <input type="text" placeholder="Enter a task">
+    <button>Add Task</button>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+    <div class="task-stats">
+  <div class="stat-card">
+    <p>Total Tasks</p>
+    <h2 id="totalTasks">0</h2>
+  </div>
+
+  <div class="stat-card">
+    <p>Completed</p>
+    <h2 id="completedTasks">0</h2>
+  </div>
+
+  <div class="stat-card">
+    <p>Pending</p>
+    <h2 id="pendingTasks">0</h2>
+  </div>
+</div>
+
+<div class="progress-section">
+  <p>Overall Progress: <span id="progressText">0%</span></p>
+  <div class="progress-bar">
+    <div id="progressFill"></div>
+  </div>
+</div>
+    <input type="text" placeholder="Enter a task">
+    <button>Add Task</button>
+<div class="filters">
+  <button onclick="filterTasks('all')">All</button>
+  <button onclick="filterTasks('pending')">Pending</button>
+  <button onclick="filterTasks('completed')">Completed</button>
+</div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
